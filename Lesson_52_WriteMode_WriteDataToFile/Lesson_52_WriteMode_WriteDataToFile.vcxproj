@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5894a31f-55b9-4452-ae2e-1d515088b90a}</ProjectGuid>
-    <RootNamespace>Course6</RootNamespace>
+    <ProjectGuid>{71476863-546e-449d-bfcf-06bdf4e4aab6}</ProjectGuid>
+    <RootNamespace>Lesson52WriteModeWriteDataToFile</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Course_6.cpp" />
+    <ClCompile Include="Lesson_52_WriteMode_WriteDataToFile.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
