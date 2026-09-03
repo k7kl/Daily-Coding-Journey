@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson_54_ReadMode__PrintFi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson_55_LoadData_From_FileToVector", "Lesson_55_LoadData_From_FileToVector\Lesson_55_LoadData_From_FileToVector.vcxproj", "{2AEE9438-C55D-42EB-8804-AF8D69D5E83B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson_56_SaveVectorToFile", "Lesson_56_SaveVectorToFile\Lesson_56_SaveVectorToFile.vcxproj", "{1115C63E-4689-4D86-8619-7AF03F80D465}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{2AEE9438-C55D-42EB-8804-AF8D69D5E83B}.Release|x64.Build.0 = Release|x64
 		{2AEE9438-C55D-42EB-8804-AF8D69D5E83B}.Release|x86.ActiveCfg = Release|Win32
 		{2AEE9438-C55D-42EB-8804-AF8D69D5E83B}.Release|x86.Build.0 = Release|Win32
+		{1115C63E-4689-4D86-8619-7AF03F80D465}.Debug|x64.ActiveCfg = Debug|x64
+		{1115C63E-4689-4D86-8619-7AF03F80D465}.Debug|x64.Build.0 = Debug|x64
+		{1115C63E-4689-4D86-8619-7AF03F80D465}.Debug|x86.ActiveCfg = Debug|Win32
+		{1115C63E-4689-4D86-8619-7AF03F80D465}.Debug|x86.Build.0 = Debug|Win32
+		{1115C63E-4689-4D86-8619-7AF03F80D465}.Release|x64.ActiveCfg = Release|x64
+		{1115C63E-4689-4D86-8619-7AF03F80D465}.Release|x64.Build.0 = Release|x64
+		{1115C63E-4689-4D86-8619-7AF03F80D465}.Release|x86.ActiveCfg = Release|Win32
+		{1115C63E-4689-4D86-8619-7AF03F80D465}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

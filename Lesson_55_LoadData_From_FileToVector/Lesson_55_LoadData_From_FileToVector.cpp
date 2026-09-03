@@ -23,8 +23,7 @@ void LoadDataFromFileToVector(string &FileName,vector <string>& vNames) {
 		cout << "File isn't open";
 	}
 }
-
-
+	
 int main()
 {
 	vector <string> vNames;
