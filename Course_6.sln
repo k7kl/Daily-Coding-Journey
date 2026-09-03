@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Course_6", "Course_6\Course_6.vcxproj", "{5894A31F-55B9-4452-AE2E-1D515088B90A}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson_52_WriteMode_WriteDataToFile", "Lesson_52_WriteMode_WriteDataToFile\Lesson_52_WriteMode_WriteDataToFile.vcxproj", "{71476863-546E-449D-BFCF-06BDF4E4AAB6}"
 EndProject
 Global
@@ -15,14 +13,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5894A31F-55B9-4452-AE2E-1D515088B90A}.Debug|x64.ActiveCfg = Debug|x64
-		{5894A31F-55B9-4452-AE2E-1D515088B90A}.Debug|x64.Build.0 = Debug|x64
-		{5894A31F-55B9-4452-AE2E-1D515088B90A}.Debug|x86.ActiveCfg = Debug|Win32
-		{5894A31F-55B9-4452-AE2E-1D515088B90A}.Debug|x86.Build.0 = Debug|Win32
-		{5894A31F-55B9-4452-AE2E-1D515088B90A}.Release|x64.ActiveCfg = Release|x64
-		{5894A31F-55B9-4452-AE2E-1D515088B90A}.Release|x64.Build.0 = Release|x64
-		{5894A31F-55B9-4452-AE2E-1D515088B90A}.Release|x86.ActiveCfg = Release|Win32
-		{5894A31F-55B9-4452-AE2E-1D515088B90A}.Release|x86.Build.0 = Release|Win32
 		{71476863-546E-449D-BFCF-06BDF4E4AAB6}.Debug|x64.ActiveCfg = Debug|x64
 		{71476863-546E-449D-BFCF-06BDF4E4AAB6}.Debug|x64.Build.0 = Debug|x64
 		{71476863-546E-449D-BFCF-06BDF4E4AAB6}.Debug|x86.ActiveCfg = Debug|Win32
