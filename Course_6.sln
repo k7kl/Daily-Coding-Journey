@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson_56_SaveVectorToFile"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson_57_DeleteRecordFromFile", "Lesson_57_DeleteRecordFromFile\Lesson_57_DeleteRecordFromFile.vcxproj", "{C382E13B-6E9F-4063-9BD2-703A40E8099C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson_58_UpdateRecordInFile", "Lesson_58_UpdateRecordInFile\Lesson_58_UpdateRecordInFile.vcxproj", "{ACD30ED0-20B9-4A2B-94E0-A901090FA3B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{C382E13B-6E9F-4063-9BD2-703A40E8099C}.Release|x64.Build.0 = Release|x64
 		{C382E13B-6E9F-4063-9BD2-703A40E8099C}.Release|x86.ActiveCfg = Release|Win32
 		{C382E13B-6E9F-4063-9BD2-703A40E8099C}.Release|x86.Build.0 = Release|Win32
+		{ACD30ED0-20B9-4A2B-94E0-A901090FA3B8}.Debug|x64.ActiveCfg = Debug|x64
+		{ACD30ED0-20B9-4A2B-94E0-A901090FA3B8}.Debug|x64.Build.0 = Debug|x64
+		{ACD30ED0-20B9-4A2B-94E0-A901090FA3B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{ACD30ED0-20B9-4A2B-94E0-A901090FA3B8}.Debug|x86.Build.0 = Debug|Win32
+		{ACD30ED0-20B9-4A2B-94E0-A901090FA3B8}.Release|x64.ActiveCfg = Release|x64
+		{ACD30ED0-20B9-4A2B-94E0-A901090FA3B8}.Release|x64.Build.0 = Release|x64
+		{ACD30ED0-20B9-4A2B-94E0-A901090FA3B8}.Release|x86.ActiveCfg = Release|Win32
+		{ACD30ED0-20B9-4A2B-94E0-A901090FA3B8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
