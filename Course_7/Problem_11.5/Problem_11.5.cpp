@@ -33,35 +33,14 @@ void PrintMatrix(int arr[3][3], int Rows, int Cols) {
     }
 }
 
-bool CheckSumEquilty(int arr[3][3], int arr2[3][3], int Rows, int Cols) {
-    return (SumMatrixNumber(arr, Rows, Cols) == SumMatrixNumber(arr2, Rows, Cols));
-}
-
-void PrintIfEquivalent(bool IsEquivalent) {
-    if (IsEquivalent) {
-        cout << "\nYES: both matrices are equal.";
-    }
-    else {
-        cout << "\nNo: matrices are NOT equal.";
-    }
-}
-
 int main()
 {
     srand(time(0));
     int arr[3][3];
-    int arr2[3][3];
     int Rows = 3;
     int Cols = 3;
 
     FillMatrixWithRandomNumbers(arr, Rows, Cols);
-    FillMatrixWithRandomNumbers(arr2, Rows, Cols);
-    cout << "\nMatrix 1:\n";
     PrintMatrix(arr, Rows, Cols);
-    cout << "\nMatrix 2:\n";
-    PrintMatrix(arr2, Rows, Cols);
-    cout << "\nSum of Matrix 1 is: " << SumMatrixNumber(arr, Rows, Cols) << endl;
-    cout << "\nSum of Matrix 2 is: " << SumMatrixNumber(arr2, Rows, Cols) << endl;
-    PrintIfEquivalent(CheckSumEquilty(arr, arr2, Rows, Cols));
-
+    cout << "\nSum of Matrix is: " << SumMatrixNumber(arr, Rows, Cols) << endl;
 }
