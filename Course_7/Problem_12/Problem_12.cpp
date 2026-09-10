@@ -9,7 +9,7 @@ bool CheckIdentityMatrix(int arr[3][3],int Rows,int Cols) {
 				return false;
 			}
 			else {
-				if (arr[i][j] != 0) {
+				if (i != j && arr[i][j] != 0) {
 					return false;
 				}
 			}
