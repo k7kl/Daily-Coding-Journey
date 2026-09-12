@@ -8,7 +8,7 @@ void PrintMatrix(int Matrix1[3][3], int Rows, int Cols) {
 			cout << setfill('0') << setw(2) << Matrix1[i][j] << " ";
 		}
 		cout << endl;
-	}A
+	}
 }
 
 bool IsMatrixPalindrome(int Matrix1[3][3], int Rows,int Cols ) {
