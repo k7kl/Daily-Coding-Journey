@@ -1,17 +1,6 @@
 #include <iostream>
 using namespace std;
 
-//void PrintFirstLetterOfEachWord(string Word) {
-//	for (int i = 0; i < Word.length(); i++) {	
-//		if (i == 0) {
-//			cout << Word[i] << "\t";
-//		}
-//		else if (Word[i] == ' ' && Word[i + 1] != ' ') {
-//			cout << Word[i + 1] << "\t";
-//		}
-//	}
-//}
-
 void PrintFirstLetterOfEachWord(string Word) {
 	bool IsFirstLetter = true;
 
@@ -29,5 +18,5 @@ void PrintFirstLetterOfEachWord(string Word) {
 
 int main()
 {
-	PrintFirstLetterOfEachWord(" Abdulrazaq   Saleh   Ahmed   Saleh  ");
+	PrintFirstLetterOfEachWord(" Abdulrazaq Saleh Ahmed Saleh  ");
 }
