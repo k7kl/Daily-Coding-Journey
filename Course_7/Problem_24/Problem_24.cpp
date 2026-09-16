@@ -2,10 +2,6 @@
 #include <string>
 using namespace std;
 
-#include <iostream>
-#include <string>
-using namespace std;
-
 string ReadString() {
 	string Word;
 	cout << "Please enter anything: ";
