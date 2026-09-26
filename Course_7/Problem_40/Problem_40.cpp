@@ -106,6 +106,7 @@ string ReverseWordsInString(string word) {
 		itr--;
 		ReversedWord += *itr + " ";
 	}
+	ReversedWord = ReversedWord.substr(0, ReversedWord.length() - 1); // to remove last space.
 	return ReversedWord;
 }
 
