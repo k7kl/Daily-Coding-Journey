@@ -42,7 +42,7 @@ stClient ConvertLineToClient(string Line, string delemiter = "##//##") {
 	return c;
 }
 
-vector <stClient> LoadClientToVecotr(string FileName) {
+vector <stClient> LoadClientToVecotrFromFile(string FileName) {
 	fstream File;
 	vector <stClient> vClients;
 	File.open(FileName, ios::in);
@@ -93,6 +93,6 @@ void PrintRecord(vector <stClient> vClients) {
 
 int main()
 {
-	vector <stClient> vClients = LoadClientToVecotr("Hi.txt");
+	vector <stClient> vClients = LoadClientToVecotrFromFile("Hi.txt");
 	PrintRecord(vClients);
 }
