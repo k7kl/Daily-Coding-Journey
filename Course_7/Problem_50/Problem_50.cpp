@@ -152,7 +152,6 @@ void EditClient(vector <stClient>& vClientsData, const string& AccountNumber) {
 		if (Answer == 'y' || Answer == 'Y') {
 			EditClientData(vClientsData, AccountNumber);
 			SaveVectorToFile(vClientsData, FileName);
-			vClientsData = LoadClientToVecotrFromFile(FileName);
 			cout << "\nClient is edited successfully!\n";
 		}
 	}
